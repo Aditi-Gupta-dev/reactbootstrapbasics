@@ -4,6 +4,7 @@ import React from 'react';
 // import List from './List';
 import  {add,sub,mul,div} from './Calc';
 import Bootstrap from './Bootstrap';
+import Webpage from './Webpage';
 
 
 
@@ -46,13 +47,15 @@ import Bootstrap from './Bootstrap';
 function App(){
   return(
     <>
-      <ol>
+      {/* <ol>
       <li>{` the sum is ${add(2,3)}`}</li>
       <li>{` the sub is ${sub(2,3)}`}</li>
       <li>{` the prod is ${mul(2,3)}`}</li>
       <li>{` the divi is ${div(2,3)}`}</li>
     </ol>
-    <Bootstrap/>
+    <Bootstrap/> */}
+
+    <Webpage/>
     </>
   );
 };
