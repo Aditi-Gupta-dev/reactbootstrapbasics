@@ -5,6 +5,7 @@ import React from 'react';
 import  {add,sub,mul,div} from './Calc';
 import Bootstrap from './Bootstrap';
 import Webpage from './Webpage';
+import Contextapp from './contextapi/Contextapp';
 
 
 
@@ -55,7 +56,9 @@ function App(){
     </ol>
     <Bootstrap/> */}
 
-    <Webpage/>
+    {/* <Webpage/> */}
+
+    <Contextapp/>
     </>
   );
 };
