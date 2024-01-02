@@ -5,7 +5,7 @@ const Bootstrap = () => {
   return (
     <>
         <h1>this is bootstrap</h1>
-        <button className="btn btn-success">button 1</button>
+        <button className="btn btn-primary">button 1</button>
         <div className="mb-3">
   <label for="formFile" className="form-label">Default file input example</label>
   <input className="form-control" type="file" id="formFile"/>
@@ -33,4 +33,4 @@ const Bootstrap = () => {
   )
 }
 
-export default Bootstrap
+export default Bootstrap;
