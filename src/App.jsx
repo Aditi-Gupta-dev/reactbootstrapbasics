@@ -7,6 +7,7 @@ import Bootstrap from './Bootstrap';
 import Webpage from './Webpage';
 import Contextapp from './contextapi/Contextapp';
 import Useapp from './contextapi/useEffect/Useapp';
+import Statewise from '/component'
 
 
 
@@ -61,6 +62,7 @@ function App(){
 
     {/* <Contextapp/> */}
     <Useapp/>
+    {/* <Statewise/> */}
     </>
   );
 };
