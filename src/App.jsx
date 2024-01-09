@@ -80,12 +80,12 @@ function App(){
     <BrowserRouter>
     <Routes>
       <Route exact path='/' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/welcom' element={<Error/>}/>
+      <Route path='contact' element={<Contact/>}/>
+      <Route path='welcome' element={<Error/>}/>
       </Routes>
     </BrowserRouter>
     </>
   );
-};
+};   
 
 export default App;
