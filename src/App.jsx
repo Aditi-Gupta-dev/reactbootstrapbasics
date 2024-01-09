@@ -7,7 +7,16 @@ import Bootstrap from './Bootstrap';
 import Webpage from './Webpage';
 import Contextapp from './contextapi/Contextapp';
 import Useapp from './contextapi/useEffect/Useapp';
-import Statewise from '/component'
+import Statewise from './component/stateWiseData/Statewise';
+
+import {BrowserRouter, Router, Route, Routes } from 'react-router-dom';
+
+import About from './component/render/About';
+import Contact from './component/render/Contact';
+import Error from './component/render/Error';
+
+  
+
 
 
 
@@ -61,8 +70,20 @@ function App(){
     {/* <Webpage/> */}
 
     {/* <Contextapp/> */}
-    <Useapp/>
+    {/* <Useapp/> */}
     {/* <Statewise/> */}
+
+
+    {/* render ==================== */}
+    
+
+    <BrowserRouter>
+    <Routes>
+      <Route exact path='/' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/welcom' element={<Error/>}/>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 };

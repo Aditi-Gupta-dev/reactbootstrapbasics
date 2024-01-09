@@ -5,7 +5,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./index.css";
+import "./index.css";  
+
+import { BrowserRouter } from 'react-router-dom';
 
 // ReactDOM.render('kya dikahana hai','kaha dikhanaa hai','callback');
 
@@ -192,8 +194,8 @@ else if(currdate>=1 && currdate<19){
 import App from './App';
 
 ReactDOM.render(
-  <>
+  
     <App></App>
-  </>,
+ ,
   document.getElementById("root")
 );
