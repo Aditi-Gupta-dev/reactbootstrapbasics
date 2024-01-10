@@ -1,7 +1,10 @@
 import React from 'react'
 // import { NavLink } from 'react-router-dom';
 // import Navbar from './Navbar';
-import { useNavigate } from 'react-router-dom'
+        
+import { useNavigate } from 'react-router-dom';
+import {FaBeer} from "react-icons/fa";
+
 
 
 const Contact = () => {
@@ -13,7 +16,7 @@ const Contact = () => {
   return (
     
     <>
-          <h1>contact page</h1>
+          <h1>contact page<FaBeer/></h1>
           {/* <Navbar/> */}
           <button onClick={()=>{gotohome()}}>goto home</button>
           <br/>

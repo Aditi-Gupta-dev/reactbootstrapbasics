@@ -16,7 +16,7 @@ import Contact from './component/render/Contact';
 import Error from './component/render/Error';
 import Home from './component/render/Home';
 
-
+import Navbar from './component/responsive nabar/Navbar';
   
 
 
@@ -79,7 +79,7 @@ function App(){
     {/* render ==================== */}
     
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
     <Routes>
       
       <Route exact path='/' element={<Home/>}>
@@ -88,8 +88,17 @@ function App(){
       <Route path='*' element={<Error/>}/>
       </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+
+    {/* // responsive navbar========= */}
+
+    <Navbar/>
+
+
     </>
+    
+    
   );
 };   
 
