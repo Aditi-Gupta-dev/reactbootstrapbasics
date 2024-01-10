@@ -14,6 +14,8 @@ import {BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 import About from './component/render/About';
 import Contact from './component/render/Contact';
 import Error from './component/render/Error';
+import Home from './component/render/Home';
+
 
   
 
@@ -79,9 +81,12 @@ function App(){
 
     <BrowserRouter>
     <Routes>
-      <Route exact path='/' element={<About/>}/>
+      
+      <Route exact path='/' element={<Home/>}>
+      <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
-      <Route path='welcome' element={<Error/>}/>
+      <Route path='*' element={<Error/>}/>
+      </Route>
       </Routes>
     </BrowserRouter>
     </>

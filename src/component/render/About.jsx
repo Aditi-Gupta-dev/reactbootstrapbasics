@@ -1,20 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
+// import Navbar from './Navbar';
+
 
 const About = () => {
-  return (
+  return(
     <>
-      <h1>home page</h1>
-      <ol>
-        <li><Link to='/'>About</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
-
-        <li><Link to='/welcome'>error</Link></li>
-
-
-      </ol>
-    </>
+  <h1>About page</h1>
+  {/* <Navbar/> */}
+</>
   )
+  
 }
 
-export default About
+export default About;
